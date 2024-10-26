@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom";
-import {
-  HiMiniBars3CenterLeft,
-  HiOutlineHeart,
-  HiOutlineShoppingCart,
-} from "react-icons/hi2";
+import { HiMiniBars3CenterLeft, HiOutlineHeart, HiOutlineShoppingCart } from "react-icons/hi2";
 import { IoSearchOutline } from "react-icons/io5";
 import { HiOutlineUser } from "react-icons/hi";
 

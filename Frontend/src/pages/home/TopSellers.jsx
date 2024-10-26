@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import BookCard from '../books/BookCard';
 
 // Import Swiper React components

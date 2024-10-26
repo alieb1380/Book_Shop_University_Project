@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { FaGoogle } from "react-icons/fa";
 import { useForm } from "react-hook-form"
@@ -8,12 +8,7 @@ const Login = () => {
     const [message, setMessage] = useState("")
     const { loginUser, signInWithGoogle} = useAuth();
     const navigate = useNavigate()
-    const {
-        register,
-        handleSubmit,
-        watch,
-        formState: { errors },
-      } = useForm()
+    const { register, handleSubmit, watch, formState: { errors } } = useForm();
 
       const onSubmit = async (data) => {
         try {
