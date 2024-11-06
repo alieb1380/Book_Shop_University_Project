@@ -1,4 +1,3 @@
-import React from 'react'
 import footerLogo  from "../assets/footer-logo.png"
 
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"

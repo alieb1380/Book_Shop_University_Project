@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+/* eslint-disable no-unused-vars */
+import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { FaGoogle } from "react-icons/fa";
 import { useForm } from "react-hook-form"
@@ -65,7 +66,7 @@ const Login = () => {
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded focus:outline-none'>Login </button>
                 </div>
             </form>
-            <p className='align-baseline font-medium mt-4 text-sm'>Haven't an account? Please <Link to="/register" className='text-blue-500 hover:text-blue-700'>Register</Link></p>
+            <p className='align-baseline font-medium mt-4 text-sm'>Havent an account? Please <Link to="/register" className='text-blue-500 hover:text-blue-700'>Register</Link></p>
 
             {/* google sign in */}
             <div className='mt-4'>
